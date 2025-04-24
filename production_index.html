@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chromecast Receiver</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Chromecast Cast Receiver SDK -->
+    <script src="https://www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
+    <!-- PixiJS -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js"></script>
+
+    <!-- React & ReactDOM depuis CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+       
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Ton bundle Vite (sera injecté ici au build) -->
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
