@@ -15,3 +15,5 @@ Via le html production_index.html qui utilise le bundle généré dans le réper
 # Création du build pour la production avec React & Vite
 
     npm run build
+
+#
