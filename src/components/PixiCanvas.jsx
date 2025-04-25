@@ -35,7 +35,7 @@ const PixiCanvas = ({castContext}) => {
       app.stage.addChild(champignon); 
     });
 
-    const text = new PIXI.Text('Bienvenue à mon jeu v1.0.0', {
+    const text = new PIXI.Text('Bienvenue à mon jeu v1.0.1', {
       fontFamily: 'Arial',
       fontSize: 44,
       fill: 0xffffff,
